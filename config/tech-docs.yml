@@ -1,18 +1,15 @@
 # Host to use for canonical URL generation (without trailing slash)
-host: digitalmarketplace.service.gov.uk
+host: https://alphagov.github.io/digitalmarketplace-framework-application-guidance
 
 # Header-related options
-show_govuk_logo: true
-service_name: My First Service
-service_link: https://www.larry-the-cat.service.gov.uk
-phase: Beta
+show_govuk_logo: false
+service_name: Digital Marketplace Framework Application Guidance
+service_link: https://alphagov.github.io/digitalmarketplace-framework-application-guidance
+phase: Alpha
 
 # Links to show on right-hand-side of header
 header_links:
-  About: https://www.larry-the-cat.service.gov.uk
-  Get Started: https://www.larry-the-cat.service.gov.uk/get-started
-  Documentation: /
-  Support: https://www.larry-the-cat.service.gov.uk/support
+  Documentation: "#"
 
 # Tracking ID from Google Analytics (e.g. UA-XXXX-Y)
 ga_tracking_id:
@@ -23,4 +20,4 @@ ga_tracking_id:
 max_toc_heading_level: 6
 
 # Prevent robots from indexing (e.g. whilst in development)
-prevent_indexing: false
+prevent_indexing: true

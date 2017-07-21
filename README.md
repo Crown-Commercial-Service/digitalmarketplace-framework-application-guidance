@@ -1,4 +1,7 @@
-# Technical Documentation
+# Digital Marketplace Framework Application Guidance
+
+This is a template based on https://github.com/alphagov/tech-docs-template
+for publishing the Digital Marketplace framework application guidance.
 
 ## Getting started
 
@@ -10,8 +13,37 @@ and the [Bundler gem][bundler].
 In the application folder type the following to install the required gems:
 
 ```
-bundle install
+make requirements
 ```
+
+[rvm]: https://www.ruby-lang.org/en/documentation/installation/#managers
+[bundler]: http://bundler.io/
+
+## Build
+
+Type the following to build the HTML:
+
+```
+make build
+```
+
+This will create a `build` subfolder in the application folder which contains
+the HTML and asset files ready to be published. If `make setup` has been
+run the `build/` folder will be a worktree for the `gh-pages` branch.
+
+## Preview
+
+Whilst writing documentation we can run a middleman server to preview how the
+published version will look in the browser.
+
+Type the following to start the server:
+
+```
+make server
+```
+
+Note: in order to preview the changes made to the markdown files you need to rerun
+`make build`.
 
 ## Making changes
 
@@ -33,45 +65,10 @@ generated output.
 Including files manually like this lets us specify the position they appear in
 the page.
 
-## Preview
+## Publish
 
-Whilst writing documentation we can run a middleman server to preview how the
-published version will look in the browser. After saving a change the preview in
-the browser will automatically refresh.
-
-The preview is only available on our own computer. Others won't be able to
-access it if they are given the link.
-
-Type the following to start the server:
+To rebuild and push the new version of documentation to Github Pages run
 
 ```
-bundle exec middleman server
+make publish
 ```
-
-If all goes well something like the following output will be displayed:
-
-```
-== The Middleman is loading
-== LiveReload accepting connections from ws://192.168.0.8:35729
-== View your site at "http://Laptop.local:4567", "http://192.168.0.8:4567"
-== Inspect your site configuration at "http://Laptop.local:4567/__middleman", "http://192.168.0.8:4567/__middleman"
-```
-
-You should now be able to view a live preview at http://localhost:4567.
-
-## Build
-
-If you want to publish the website without using a build script you may need to
-build the static HTML files.
-
-Type the following to build the HTML:
-
-```
-bundle exec middleman build
-```
-
-This will create a `build` subfolder in the application folder which contains
-the HTML and asset files ready to be published.
-
-[rvm]: https://www.ruby-lang.org/en/documentation/installation/#managers
-[bundler]: http://bundler.io/

@@ -4,6 +4,8 @@ requirements:
 
 .PHONY: setup
 setup: clean
+	git fetch origin gh-pages
+	git branch -f gh-pages origin/gh-pages
 	git worktree add build gh-pages
 
 .PHONY: clean

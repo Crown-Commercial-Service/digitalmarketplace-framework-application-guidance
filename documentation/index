@@ -1,0 +1,10 @@
+<h1 id="hello-world">Hello, World!</h1><h2 id="edit-me">Edit Me!</h2>
+<p>Open <code>source/documentation/index.md</code> in your favourite text editor and start editing!</p>
+
+<p>You can write content in <a href="https://daringfireball.net/projects/markdown/">Markdown</a> using <strong>all</strong> of the <em>usual</em> syntax that you&rsquo;re used to!</p>
+
+<p>To change the title of the page or include additional files you&rsquo;ll need to edit <code>source/index.html.md.erb</code>.</p>
+
+<p>If you want slightly more control, you can always use <strong>HTML</strong>.</p>
+
+<p>For more detail and troubleshooting, take a look at the <code>README.md</code> file in the root of this project.</p>

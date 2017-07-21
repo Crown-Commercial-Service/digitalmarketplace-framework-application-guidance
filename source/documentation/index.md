@@ -4,7 +4,7 @@
 
 Open `source/documentation/index.md` in your favourite text editor and start editing!
 
-You can write content in [Markdown](https://daringfireball.net/projects/markdown/) using **all** of the _usual_ syntax that you're used to!
+You can write content in [Markdown](http://commonmark.org/help/) using **all** of the _usual_ syntax that you're used to!
 
 To change the title of the page or include additional files you'll need to edit `source/index.html.md.erb`.
 

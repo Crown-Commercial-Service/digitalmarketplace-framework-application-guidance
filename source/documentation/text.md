@@ -30,4 +30,8 @@ A content designer drafts the framework agreement and call-off contract with a s
 
 The invitation to apply is drafted by CCS. 
 
+### Framework agreement 
+This is an agreement between suppliers and the framework authority. It sets out the basic terms under which individual contracts can be awarded to suppliers. This is [an example of a framework agreement]. 
 
+### Invitation to apply (or ‘Invitation to tender’)
+The invitation to apply gives suppliers all the information they need to submit an application. This is an example of an invitation to apply. 

@@ -33,8 +33,5 @@ The invitation to apply is drafted by CCS.
 ### Framework agreement 
 This is an agreement between suppliers and the framework authority. It sets out the basic terms under which individual contracts can be awarded to suppliers. This is [an example of a framework agreement]. 
 
-### Call-off contract
-A call-off contract is an individual contract that’s awarded within a framework agreement. Buyers enter into this contract with suppliers to accept their terms and conditions, for example, service price. This is [an example of a call-off contract].
-
 ### Invitation to apply (or ‘Invitation to tender’)
 The invitation to apply gives suppliers all the information they need to submit an application. This is an example of an invitation to apply. 
